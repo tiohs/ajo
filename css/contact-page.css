@@ -1,0 +1,261 @@
+
+
+
+
+/*** 
+=============================================
+    Contact Form Area Css
+=============================================
+***/
+.contact-style1-area {
+    position: relative;
+    display: block;
+    background: #ffffff;
+    padding: 120px 0 120px;
+    z-index: 10;
+}
+.contact-style1_form {
+    position: relative;
+    display: block;
+    padding-right: 110px;
+}
+.contact-style1_form .sec-title{
+    padding-bottom: 52px;
+}
+.contact-style1_form .sec-title p{
+    margin: 15px 0 0;
+}
+
+.contact-form {
+    position: relative;
+    display: block;
+}
+.contact-form form{
+    position: relative;
+    display: block;
+}
+.contact-form form .input-box{
+    position: relative;
+    display: block;
+    margin-bottom: 20px;
+}
+.contact-form form .input-box .icon{
+    position: absolute;
+    top: 17px;
+    right: 20px;
+    font-size: 15px;
+    color: var(--thm-color-3);
+}
+
+.contact-form form input[type="text"],
+.contact-form form input[type="email"],
+.contact-form form textarea{
+    position: relative;
+    display: block;   
+    background: #ffffff;
+    width: 100%;
+    height: 62px;
+    border: 1px solid #e3e9f4;
+    color: #666666;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 8px;
+    transition: all 500ms ease;
+}
+.contact-form form textarea {
+    height: 120px;
+    padding-top: 15px;
+    padding-left: 25px;
+    padding-right: 20px;
+}
+.contact-form form input[type="text"]:focus{
+    color: #171717;
+    border-color: #171717; 
+}
+.contact-form form input[type="email"]:focus{
+    color: #171717;
+    border-color: #171717; 
+}
+.contact-form form textarea:focus{
+    color: #171717;
+    border-color: #171717; 
+}
+
+.contact-form form input[type="text"]::-webkit-input-placeholder {
+    color: #666666;
+}
+.contact-form form input[type="text"]:-moz-placeholder {
+    color: #666666;
+}
+.contact-form form input[type="text"]::-moz-placeholder {
+    color: #666666;
+}
+.contact-form form input[type="text"]:-ms-input-placeholder {
+    color: #666666;
+}
+.contact-form form input[type="email"]::-webkit-input-placeholder {
+    color: #666666;
+}
+.contact-form form input[type="email"]:-moz-placeholder {
+    color: #666666;
+}
+.contact-form form input[type="email"]::-moz-placeholder {
+    color: #666666;
+}
+.contact-form form input[type="email"]:-ms-input-placeholder {
+    color: #666666;
+}
+.contact-form form textarea::-webkit-input-placeholder {
+    color: #666666;
+}
+.contact-form form textarea:-moz-placeholder {
+    color: #666666;
+}
+.contact-form form textarea::-moz-placeholder {
+    color: #666666;
+}
+.contact-form form textarea:-ms-input-placeholder {
+    color: #666666;
+}
+.contact-form form .button-box {
+    position: relative;
+    padding-top: 30px;
+}
+.contact-form form .button-box button{}
+
+
+
+
+/*** 
+=============================================
+    Contact Info Sidebar Css
+=============================================
+***/
+.contact-info-sidebar {
+    position: relative;
+    display: block;
+    background: #ffffff;
+    padding: 45px 30px 37px;
+    max-width: 320px;
+    width: 100%;
+    float: right;
+}
+.contact-info-sidebar::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background: #2f3a51;
+}
+.contact-info-sidebar::after{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    transform: scaleX(0);
+    background: var(--thm-primary);
+    content: "";
+    z-index: 2;
+    -webkit-transition: all 0.4s linear;
+    -o-transition: all 0.4s linear;
+    transition: all 0.4s linear;    
+}
+.contact-info-sidebar:hover::after{
+    transform: scaleX(1.0);    
+}
+
+
+.contact-info-sidebar ul{
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+.contact-info-sidebar ul li {
+    position: relative;
+    display: block;
+    margin-top: 35px;
+    padding-bottom: 27px;
+    border-bottom: 1px solid #e3e9f4;
+}
+.contact-info-sidebar ul li:first-child{
+    margin-top: 0;
+}
+.contact-info-sidebar ul li:last-child{
+    border-bottom: none;
+    padding-bottom: 0;
+}
+.contact-info-sidebar ul li .top{
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-bottom: 17px;
+}
+.contact-info-sidebar ul li .top .icon{
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 8px;
+    text-align: center;
+    background: var(--thm-primary);
+}
+.contact-info-sidebar ul li .top .icon span{
+    color: #ffffff;
+    font-size: 20px;
+}
+.contact-info-sidebar ul li .top .title{
+    position: relative;
+    display: block;
+    padding-left: 15px;
+}
+.contact-info-sidebar ul li .top .title h3{
+    font-size: 22px;
+    line-height: 32px;
+    font-weight: 800;
+}
+.contact-info-sidebar ul li p{
+    color: var(--thm-black);
+    font-weight: 500;
+    margin: 0;
+}
+.contact-info-sidebar ul li p a{
+    color: var(--thm-black);
+}
+
+
+
+
+
+
+
+
+/*** 
+=============================================
+    Google Map Area Css
+=============================================
+***/
+.google-map-area{
+    position: relative;
+    display: block;
+}
+.google-map-area .container-fluid{
+    padding: 0;
+}
+.contact-page-map-outer{
+    position: relative;
+    display: block;
+    z-index: 10;
+}
+.contact-page-map-outer .map-canvas{
+	position: relative;
+	width: 100%;
+	height: 600px;    
+}
+

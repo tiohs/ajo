@@ -1,0 +1,505 @@
+
+/*** 
+=============================================
+    Team Style1 Area Css
+=============================================
+***/
+.team-style1-area{
+    position: relative;
+    display: block;
+    background: #ffffff;
+    padding: 120px 0 80px;
+}
+.team-style1-area .shape{
+    position: absolute;
+    left: 5%;
+    bottom: 0;
+}
+
+.single-team-style1{
+    position: relative;
+    display: block;
+    margin-bottom: 32px;
+}
+.single-team-style1 .img-holder{
+    position: relative;
+    display: block;
+}
+.single-team-style1 .img-holder .inner{
+    position: relative;
+    display: block;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.single-team-style1 .img-holder .inner img{
+    width: 100%;
+    border-radius: 50%;
+}
+.single-team-style1:hover .img-holder .inner img{
+    transform: scale(1.1) rotate(2deg);
+}
+
+.single-team-style1 .img-holder .overly-box {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 15px;
+    left: 15px;
+    right: 15px;
+    bottom: 15px;
+    background: #000000;
+    border-radius: 50%;
+    opacity: .80;
+    -webkit-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+    -webkit-transform: perspective(400px) rotateX(90deg);
+    -ms-transform: perspective(400px) rotateX(90deg);
+    transform: perspective(400px) rotateX(90deg);
+    -webkit-transform-origin: bottom;
+    -ms-transform-origin: bottom;
+    transform-origin: bottom;
+}
+.single-team-style1:hover .img-holder .overly-box{
+    opacity: 0.8;
+    -webkit-transform: perspective(400px) rotateX(0deg);
+    -ms-transform: perspective(400px) rotateX(0deg);
+    transform: perspective(400px) rotateX(0deg);
+}
+.single-team-style1 .img-holder .overly-box .social-links{
+    position: relative;
+    display: block;
+    overflow: hidden;
+    opacity: 0;
+    -webkit-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+    -webkit-transform: perspective(400px) rotateX(90deg);
+    -ms-transform: perspective(400px) rotateX(90deg);
+    transform: perspective(400px) rotateX(90deg);
+    -webkit-transform-origin: bottom;
+    -ms-transform-origin: bottom;
+    transform-origin: bottom;
+}
+.single-team-style1:hover .img-holder .overly-box .social-links{
+    opacity: 1.0;
+    -webkit-transform: perspective(400px) rotateX(0deg);
+    -ms-transform: perspective(400px) rotateX(0deg);
+    transform: perspective(400px) rotateX(0deg);
+}
+.single-team-style1 .img-holder .overly-box .social-links li{
+    position: relative;
+    display: inline-block;
+    float: left;
+    margin-right: 4px;
+}
+.single-team-style1 .img-holder .overly-box .social-links li:last-child{
+    margin-right: 0;
+}
+.single-team-style1 .img-holder .overly-box .social-links li a{
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    color: #222222;
+    font-size: 16px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 8px;
+    background: #ffffff;
+    transition: all 500ms ease;
+}
+.single-team-style1 .img-holder .overly-box .social-links li a:hover{
+    background: var(--thm-color-2);
+}
+.single-team-style1 .img-holder .overly-box .social-links li a i::before{
+    color: var(--thm-black);
+    font-size: 16px;
+    transition: all 500ms ease;
+}
+.single-team-style1 .img-holder .overly-box .social-links li a:hover i::before{
+    color: #ffffff;
+}
+
+.single-team-style1 .img-holder .shape{
+    position: absolute;
+    left: 0;
+    bottom: -30px;
+    right: 0;
+    width: 60px;
+    height: 60px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ffffff;
+    border-radius: 50%;
+    box-shadow: 0px 5px 24px 6px rgba(0, 0, 0, 0.06);
+}
+
+.single-team-style1 .title-holder{
+    position: relative;
+    display: block;
+    margin-top: 66px
+}
+.single-team-style1 .title-holder h3{
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.single-team-style1 .title-holder h3 a{
+    color: #222222;
+}
+.single-team-style1 .title-holder p{
+    margin: 6px 0 0;
+}
+
+
+.team-style1-area.pdb120{
+    padding-bottom: 120px;
+}
+.team-carousel.owl-carousel.owl-dot-style1 .owl-dots {
+    margin-top: 20px !important;
+}
+.team-style1-area .thm-shape1{
+    position: absolute;
+    top: 120px;
+    left: 150px;
+}
+
+
+
+
+
+
+/*** 
+=============================================
+    Team Style2 Area Css
+=============================================
+***/
+.team-style2-area{
+    position: relative;
+    display: block;
+    background: #ffffff;
+    padding: 120px 0px 80px;
+}
+.single-team-style2{
+    position: relative;
+    display: block;
+    margin-bottom: 40px;
+}
+.single-team-style2 .img-holder{
+    position: relative;
+    display: block;
+}
+.single-team-style2 .img-holder .inner{
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+.single-team-style2 .img-holder .inner::before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: block;
+    content: '';
+    width: 0;
+    height: 0;
+    background: rgba(255, 255, 255, .2);
+    border-radius: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    z-index: 10;
+}
+.single-team-style2:hover .img-holder .inner::before {
+    -webkit-animation: circle .75s;
+    animation: circle .75s;
+}
+.single-team-style2 .img-holder .inner img{
+    width: 100%;
+    transform: scale(1.0);
+    transition: all 700ms ease;
+}
+.single-team-style2:hover .img-holder .inner img{
+    transform: scale(1.2);    
+}
+
+
+.single-team-style2 .title-holder{
+    position: relative;
+    display: block;
+    background: #ffffff;
+    box-shadow: 0px 5px 24px 6px rgba(0, 0, 0, 0.06);
+    padding: 40px 0px 45px;
+    text-align: center;
+    z-index: 1;
+}
+.single-team-style2 .title-holder:after {
+    position: absolute;
+    content: "";
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    opacity: 0;
+    background: #2f3a51;
+    transition-delay: .05s;
+    transition-timing-function: ease-in-out;
+    transition-duration: .5s;
+    transition-property: all;
+    opacity: 0;
+    transform-origin: top;
+    transform-style: preserve-3d;
+    transform: scaleY(0);
+    z-index: -1;
+}
+.single-team-style2:hover .title-holder:after{
+    opacity: 1;
+    transform: scaleY(1.0);    
+}
+.single-team-style2 .title-holder h4{
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+}
+.single-team-style2:hover .title-holder h4{
+    color: #ffffff;
+}
+.single-team-style2 .title-holder p{
+    color: var(--thm-black);
+    margin: 0;
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+}
+.single-team-style2:hover .title-holder p{
+    color: #ffffff;
+}
+
+
+.single-team-style2 .title-holder .social-icon{
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin-top: 32px;
+}
+.single-team-style2 .title-holder .social-icon.style2 li a:hover{
+    background: var(--thm-color-2);
+}
+.single-team-style2 .title-holder .social-icon.style3 li a:hover{
+    background: var(--thm-color-3);
+}
+.single-team-style2 .title-holder .social-icon li{
+    position: relative;
+    display: inline-block;
+    margin-right: 1px;
+}
+.single-team-style2 .title-holder .social-icon li:last-child{
+    margin-right: 0;
+}
+.single-team-style2 .title-holder .social-icon li a{
+    position: relative;
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background: #eef1f7;
+    text-align: center;
+    line-height: 35px;
+    border-radius: 8px;
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+}
+.single-team-style2 .title-holder .social-icon li:hover a{
+    background: var(--thm-primary);
+}
+.single-team-style2 .title-holder .social-icon li a i::before{
+    color: var(--thm-black);
+    font-size: 15px;
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+}
+.single-team-style2 .title-holder .social-icon li:hover a i::before{
+    color: #ffffff;
+}
+
+
+
+
+
+/*** 
+=============================================
+    Team Style3 Area Css
+=============================================
+***/
+.team-style3-area{
+    position: relative;
+    display: block;
+    background: #eef1f7;
+    padding: 120px 0px 27px;
+}
+
+.single-team-style3 {
+    position: relative;
+    display: block;
+    min-height: 475px;
+    margin-bottom: 30px;
+}
+.single-team-style3 .img-holder{
+    position: relative;
+    display: block;
+}
+.single-team-style3 .img-holder .inner{
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+.single-team-style3 .img-holder .inner img{
+    width: 100%;
+    transform: scale(1.0);
+    transition: all 7000ms ease;    
+}
+.single-team-style3:hover .img-holder .inner img{
+    transform: scale(1.2);    
+}
+.single-team-style3 .img-holder .shape {
+    position: absolute;
+    left: 0;
+    bottom: -20px;
+    right: 0;
+    width: 60px;
+    height: 60px;
+    margin: 0 auto;
+    background: #ffffff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 60px;
+    box-shadow: 0px 5px 24px 6px rgba(0, 0, 0, 0.06);
+    z-index: 2;
+}
+
+
+.single-team-style3 .title-holder {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    background: #ffffff;
+    box-shadow: 0px 5px 24px 6px rgb(0 0 0 / 6%);
+    padding: 55px 0px 32px;
+    text-align: center;
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+}
+.single-team-style3:hover .title-holder{
+    padding: 55px 0px 92px;
+}
+
+
+
+.single-team-style3 .title-holder h4{
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 600;
+    margin: 0 0 5px;
+}
+.single-team-style3 .title-holder p{
+    color: var(--thm-black);
+    margin: 0;
+}
+.single-team-style3 .title-holder .overly{
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+    -webkit-transform: perspective(400px) rotateX(90deg);
+    -ms-transform: perspective(400px) rotateX(90deg);
+    transform: perspective(400px) rotateX(90deg);
+    -webkit-transform-origin: top;
+    -ms-transform-origin: top;
+    transform-origin: top;
+}
+.single-team-style3:hover .title-holder .overly{
+    bottom: 40px;
+    -webkit-transform: perspective(400px) rotateX(0deg);
+    -ms-transform: perspective(400px) rotateX(0deg);
+    transform: perspective(400px) rotateX(0deg);
+    opacity: 1;
+}
+.single-team-style3 .title-holder .overly .social-icon{
+    position: relative;
+    display: block;
+    overflow: hidden;
+    height: 0;
+    -webkit-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+}
+.single-team-style3:hover .title-holder .overly .social-icon{
+    height: 35px;
+}
+
+
+.single-team-style3 .title-holder .overly .social-icon li{
+    position: relative;
+    display: inline-block;
+    margin-right: 1px;
+}
+.single-team-style3 .title-holder .overly .social-icon li a{
+    position: relative;
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background: #eef1f7;
+    text-align: center;
+    line-height: 35px;
+    border-radius: 8px;
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+}
+.single-team-style3 .title-holder .overly .social-icon li:hover a{
+    background: var(--thm-primary);
+}
+.single-team-style3 .title-holder .overly .social-icon li a i::before{
+    color: var(--thm-black);
+    font-size: 15px;
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+}
+.single-team-style3 .title-holder .overly .social-icon li:hover a i::before{
+    color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

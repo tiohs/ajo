@@ -1,0 +1,200 @@
+/*** 
+============================================
+	Hidden Sidebar style
+============================================
+***/
+.hidden-bar{
+	position: fixed;
+	top: 0;
+	width: 320px;
+	height: 100%;
+	background: #171717;
+	z-index: 9999999999;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.hidden-bar .mCSB_inside > .mCSB_container{
+	margin-right:0px;	
+}
+.hidden-bar.right-align {
+	right: -400px;
+}
+.hidden-bar.right-align.visible-sidebar{
+	right:0px;
+}
+.hidden-bar .hidden-bar-closer {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    width: 40px;
+    height: 40px;
+    background: none;
+    color: #ffffff;
+    border-radius: 0px;
+    text-align: center;
+    line-height: 40px;
+    transition: all 300ms ease;
+    z-index: 999999;
+}
+.hidden-bar .hidden-bar-closer button {
+	background: none;
+	display:block;
+	font-size: 40px;
+	color:#ffffff;
+	width:40px;
+	height:40px;
+	line-height:40px;
+}
+.hidden-bar .hidden-bar-closer button span:before{
+    font-size: 30px;
+    line-height: 30px;
+}
+.hidden-bar .hidden-bar-closer:hover button {
+	color: #ffffff;
+}
+
+.hidden-bar-wrapper {
+	height: 100%;
+	padding:30px 10px 30px 30px;
+}
+.hidden-bar .logo {
+	padding:0px 0px 30px;
+}
+.hidden-bar .logo a{
+    display: inline-block;
+}
+.hidden-bar .logo img{
+	display: inline-block;
+	max-width: 100%;	
+}
+
+
+.hiddenbar-about-us{
+    position: relative;
+    display: block;
+}
+.hiddenbar-about-us h3{
+    color: #ffffff;
+    font-size: 20px;
+    margin: 0 0 18px;
+}
+.hiddenbar-about-us .text{
+    display: block;
+}
+.hiddenbar-about-us .text p{
+    color: rgba(255, 255, 255, 0.50);
+    margin: 0;
+}
+
+
+.hidden-bar .contact-info-box{
+    position: relative;
+    display: block;
+    padding-top: 36px;
+}
+.hidden-bar .contact-info-box h3{
+    color: #ffffff;
+    font-size: 20px;
+    margin: 0 0 23px;    
+}
+.hidden-bar .contact-info-box ul{
+    position: relative;
+    display: block;
+}
+.hidden-bar .contact-info-box ul li{
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin-bottom: 16px;
+}
+.hidden-bar .contact-info-box ul li:last-child{
+    margin-bottom: 0;
+}
+.hidden-bar .contact-info-box ul li h5{
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 700;
+    margin: 0 0 11px;
+}
+.hidden-bar .contact-info-box ul li p{
+    color: rgba(255, 255, 255, 0.50);
+    font-size: 14px;
+    margin: 0;
+}
+.hidden-bar .contact-info-box ul li p a{
+    color: rgba(255, 255, 255, 0.50);
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+}
+.hidden-bar .contact-info-box ul li p a:hover{
+    color: rgb(255, 255, 255);    
+}
+
+.hidden-bar .newsletter-form-box {
+    position: relative;
+    display: block;
+    padding-top: 26px;
+    padding-right: 20px;
+}
+.hidden-bar .newsletter-form-box h3{
+    font-size: 20px;
+    color: #ffffff;
+    margin: 0 0 24px;  
+}
+.hidden-bar .newsletter-form-box form{
+    position: relative;
+    display: block;
+}
+.hidden-bar .newsletter-form-box form input[type="email"] {
+    position: relative;
+    display: block;
+    width: 100%; 
+    height: 50px;
+    background: #ffffff;
+    border: 1px solid #eeeeee;
+    color: #8b8b8b;
+    font-size: 15px;
+    padding: 0 20px;
+    padding-right: 60px;
+    transition: all 500ms ease;
+}
+.hidden-bar .newsletter-form-box form button {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 15px;
+    width: 50px;
+    text-align: center;
+}
+.hidden-bar .newsletter-form-box form button:before{
+    position: absolute;
+    top: 12px;
+    left: 0;
+    bottom: 12px;
+    width: 2px;
+    background: #eeeeee;
+    content: "";
+}
+.hidden-bar .newsletter-form-box form button i{
+    position: relative;
+    top: 2px;
+    color: #22254a;
+    font-size: 20px;
+    line-height: 20px;
+}
+.hidden-bar .copy-right-text{
+    position: relative;
+    display: block;
+    padding-top: 44px;
+}
+.hidden-bar .copy-right-text p{
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0;    
+}
+

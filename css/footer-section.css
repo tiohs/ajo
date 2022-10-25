@@ -1,0 +1,299 @@
+
+
+/*** 
+=============================================
+    Footer area style
+=============================================
+***/
+.footer-area {
+    position: relative;
+    display: block;
+    background: #21293b;
+    z-index: 10;
+}
+
+.footer {
+    position: relative;
+    display: block;
+    padding: 100px 0 91px;
+    z-index: 1;
+}
+.footer .auto-container {
+    max-width: 1325px;
+}
+
+.single-footer-widget {
+    position: relative;
+    display: block;
+}
+.single-footer-widget.martop {
+    margin-top: 12px;
+}
+
+
+.single-footer-widget .title {
+    position: relative;
+    display: block;
+    padding-bottom: 10px;
+    margin-bottom: 32px;
+}
+.single-footer-widget .title::before{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 35px;
+    height: 2px;
+    background:var(--thm-primary);
+    content: "";
+}
+.single-footer-widget .title h3{
+    color: #ffffff;
+    font-size: 22px;
+    line-height: 30px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.single-footer-widget .our-company-info {
+    position: relative;
+    display: block;
+}
+.single-footer-widget .our-company-info .footer-logo{
+    position: relative;
+    display: block;
+    margin-bottom: 27px;
+}
+.single-footer-widget .our-company-info .footer-logo a{
+    position: relative;
+    display: inline-block;
+}
+
+.single-footer-widget .our-company-info .text-box {
+    position: relative;
+    display: block;
+}
+.single-footer-widget .our-company-info .text-box p{
+    color: rgba(255, 255, 255, 0.40);
+    margin: 0;
+}
+
+
+.footer-contact-info {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+}
+.footer-contact-info .icon{
+    position: relative;
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    color: #ffffff;
+    background: var(--thm-primary);
+    font-size: 15px;
+    line-height: 40px;
+    text-align: center;
+}
+.footer-contact-info .support-box {
+    position: relative;
+    display: block;
+    padding-left: 15px;
+}
+.footer-contact-info .support-box h5 {
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 600;
+    margin-bottom: 3px;
+}
+.footer-contact-info .support-box h5 a{
+    color: #ffffff;
+}
+.footer-contact-info .support-box .email{
+    position: relative;
+    display: block;
+}
+.footer-contact-info .support-box .email p{
+    margin: 0;
+}
+.footer-contact-info .support-box .email p a{
+    color: #ffffff;
+}
+
+
+
+.footer-widget-links1{
+    position: relative;
+    display: block;
+}
+.footer-widget-links1 li{
+    position: relative;
+    display: block;
+    margin-bottom: 10px;
+}
+.footer-widget-links1 li:last-child{
+    margin-bottom: 0;
+}
+.footer-widget-links1 li a {
+    position: relative;
+    display: inline-block;
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    transition: all 500ms ease;
+}
+.footer-widget-links1 li a:hover{
+    color: #ffffff;
+}
+
+
+
+.single-footer-widget.fixwidth{
+    width: 260px;
+    float: right;
+}
+.single-footer-widget .text{
+    position: relative;
+    display: block;
+}
+.single-footer-widget .text p{
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.40);
+    margin: 0;
+}
+.widget-subscribe-form{
+    position: relative;
+    display: block;
+    margin-top: 31px;
+}
+.widget-subscribe-form .form-group{
+    position: relative;
+    display: block;
+    margin: 0;
+}
+.widget-subscribe-form .form-group input[type='email']{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 60px;
+    color: #666666;
+    font-size: 16px;
+    font-weight: 400;
+    background: #ffffff;
+    padding-left: 25px;
+    padding-right: 70px;
+    border-radius: 10px;
+    border:0px solid transparent;
+}
+.widget-subscribe-form .form-group button{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    transition: all 300ms ease 100ms;
+    font-size: 20px;
+    padding: 0;
+    background: var(--thm-primary);
+    border-radius: 8px;
+}
+.widget-subscribe-form .form-group button i{
+    color: #ffffff;
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+.footer-bottom {
+    position: relative;
+    display: block;
+}
+.footer-bottom  .auto-container {
+    max-width: 1325px;
+}
+.footer-bottom_content_box {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 45px 0;
+    border-top: 1px solid #4a5161
+}
+
+.copyright-text {
+    position: relative;
+    display: block;
+}
+.copyright-text p{
+    color:rgba(255, 255, 255, 0.50);
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    margin: 0;
+}
+.copyright-text p a {
+    color:rgba(255, 255, 255, 0.90);
+    font-weight: 500;
+    transition: all 500ms ease;
+}
+.copyright-text p a:hover{
+    color:rgba(255, 255, 255, 0.50);    
+}
+  
+.footer-social-link{
+    position: relative;
+    display: block;
+    margin-left: 20px;
+}
+.footer-social-link .social-links-style1{
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+.footer-social-link .social-links-style1 li {
+    position: relative;
+    display: inline-block;
+    color: #ffffff;
+    margin-right: 5px;
+}
+.footer-social-link .social-links-style1 li a{
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.10);
+    border-radius: 8px;
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+}
+.footer-social-link .social-links-style1 li a:hover{
+    background: var(--thm-color-2);
+}
+.footer-social-link .social-links-style1 li a i{
+    color: #ffffff;
+    font-size: 15px;
+    line-height: 40px;
+}
+
+
+
+
+
+
+

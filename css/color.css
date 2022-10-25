@@ -1,0 +1,89 @@
+
+
+/*** 
+=====================================================
+	Theme Main Color Css
+=====================================================
+***/
+.main-menu .navigation>li:hover>a,
+.main-menu .navigation>li.current>a,
+.main-menu .navigation>li>ul>li>a:hover,
+.main-menu .navigation> li> ul> li:hover> a,
+.main-menu .navigation> li> ul> li> ul> li> a:hover,
+.main-menu .navigation> li> .megamenu li:hover a,
+.main-menu .navigation> li> ul> li.dropdown> a:after,
+.mobile-menu .navigation li.current > a,
+.mobile-menu .navigation li > a:hover,
+.outer-search-box-style1 .seach-toggle:hover,
+.outer-search-box-style1 .seach-toggle.active,
+.sticky-header .main-menu .navigation>li:hover>a,
+.sticky-header .main-menu .navigation>li.current>a
+
+{
+    color: var(--thm-primary);
+}
+
+
+
+
+
+
+/*** 
+=====================================================
+	Theme Main Background Color Css
+=====================================================
+***/
+
+.nav-outer .mobile-nav-toggler .inner,
+.thm-social-link1 ul li a:before,
+
+ 
+{
+    background: var(--thm-primary);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*** 
+=====================================================
+	Theme Main Border Color Css
+=====================================================
+***/
+.mobile-menu .navigation li > a:before {
+    border-left: 5px solid var(--thm-primary);
+}
+
+
+.styled-pagination li:hover a,
+.styled-pagination li.active a,
+.styled-pagination li:hover a,
+.styled-pagination li.active a
+
+
+{
+    border-color: var(--thm-primary);
+}
+
+
+

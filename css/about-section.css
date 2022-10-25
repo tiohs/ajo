@@ -1,0 +1,602 @@
+
+/*** 
+=============================================
+    About Style1 Area Css   
+=============================================
+***/
+.about-style1-area{
+    position: relative;
+    display: block;
+    background: #ffffff;
+    padding: 0px 0 120px;
+}
+.about-style1-area .sec-title {
+    padding-bottom: 19px;
+}
+
+
+.about-style1_content-box{
+    position: relative;
+    display: block;
+    max-width: 650px;
+    width: 100%;
+    padding-top: 120px;
+}
+.about-style1_content-box_map{
+    position: absolute;
+    top: 0;
+    left: -300px;
+    bottom: 0;
+    max-width: 645px;
+    width: 100%;
+}
+.about-style1_content-box .inner-content{
+    position: relative;
+    display: block;
+}
+.about-style1_content-box .inner-content h3{
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 600;
+    margin-bottom: 19px;
+}
+.about-style1_content-box .inner-content p{
+    margin: 0;
+}
+.about-style1_content-box .inner-content .bottom-box{
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+
+.about-style1_content-box .inner-content .bottom-box .signature{
+    position: relative;
+    display: block;
+    padding-right: 35px;
+}
+.about-style1_content-box .inner-content .bottom-box .signature h2{
+    color: var(--thm-color-3);
+    font-size: 60px;
+    line-height: 1.2em;
+    font-weight: 400;
+    font-family: aervish-fonts;
+}
+.about-style1_content-box .inner-content .bottom-box .signature::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0;
+    bottom: 0;
+    width: 1px;
+    background: #e3e9f4;
+}
+.about-style1_content-box .inner-content .bottom-box .name{
+    position: relative;
+    display: block;
+    padding-left: 35px;
+}
+.about-style1_content-box .inner-content .bottom-box .name .shape {
+    position: absolute;
+    top: -15px;
+    left: 30px;
+    bottom: 0;
+}
+
+
+.about-style1_content-box .inner-content .bottom-box .name h3{
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 600;
+    margin: 0;
+}
+.about-style1_content-box .inner-content .bottom-box .name span{
+    color: var(--thm-black);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+
+.noselect {
+    user-select: none;
+    -o-user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+}
+
+
+
+.donate-form-box{
+    position: relative;
+    display: block;
+    background: var(--thm-color-5);
+    padding: 43px 50px 50px;
+    margin-top: -40px;
+    margin-left: -30px;
+    z-index: 10;
+}
+.donate-form-box .shape1{
+    position: absolute;
+    bottom: -80px;
+    right: -110px;
+}
+
+.donate-form-box .top-title{
+    position: relative;
+    display: block;
+    padding-bottom: 31px;
+}
+.donate-form-box .top-title h2{
+    color: #ffffff;
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 700;
+}
+
+
+
+.donate-form-box .progress-levels-style2 {
+    padding-top: 0;
+}
+.donate-form-box .progress-levels-style2 .progress-box .bar .bar-innner {
+    background: #741ea6;
+}
+
+.donate-form-box .progress-levels-style2 .bottom-box {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    border-bottom: 1px dashed rgba(255, 255, 255, 0.30);
+    margin-bottom: 42px;
+}
+.donate-form-box .progress-levels-style2 .bottom-box .rate-box p {
+    color: #ffffff;
+}
+.donate-form-box .progress-levels-style2 .bottom-box .rate-box p span {
+    position: relative;
+    display: inline-block;
+    padding-left: 10px;
+    font-weight: 600;
+}
+.donate-form-box .progress-levels-style2 .progress-box .count-text {
+    color: #ffffff;
+}
+.donate-form-box .progress-levels-style2 .progress-box .percent {
+    color: #ffffff;
+}
+
+.donate-form-box .progress-levels-style2 .progress-box .outer-text {
+    color: #ffffff;
+}
+
+
+
+.donation_wrapper {
+    position: relative;
+    display: block;
+}
+.donation_wrapper > .title {
+    position: relative;
+    display: block;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+}
+
+
+
+
+
+.donation_wrapper > .amount_wrapper {
+    position: relative;
+    display: block;
+    margin-bottom: 15px;
+}
+.donation_wrapper > .amount_wrapper > input {
+    border-right: 0;
+    outline: none;
+    position: relative;
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: none;
+    padding: 0 0;
+    height: 50px;
+    padding-left: 70px;
+    padding-right: 10px;
+}
+.donation_wrapper > .amount_wrapper > .suffix {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 51px;
+    padding: 0px;
+    border: 0;
+    border-right: 1px solid #dddddd;
+    color: #222222;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 50px;
+    box-shadow: none;
+    background: #fff;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+
+.donation_wrapper > .single_amount_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 0px 25px;
+    margin-left: 0px;
+}
+.donation_wrapper > .single_amount_wrapper > .single_amount {
+    padding: 7px 12px;
+    margin: 0;
+    border-radius: 5px;
+    color: #fff;
+    border: 1px solid #ffffff;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+}
+.donation_wrapper > .single_amount_wrapper > .single_amount:hover {
+    background: var(--thm-color-3);
+    border-color: var(--thm-color-3);;
+}
+
+
+
+
+.donation_wrapper > a{
+    position: relative;
+    display: block;
+    text-align: center;
+}
+.donation_wrapper > a.btn-one .txt i.arrow1 {
+    position: relative;
+    top: 0px;
+    display: block;
+    float: left;
+    line-height: 60px;
+    padding-right: 0;
+}
+
+
+
+
+/*** 
+=============================================
+    About Style2 Area Css   
+=============================================
+***/
+.about-style2-area{
+    position: relative;
+    display: block;
+    background: #ffffff;
+    padding: 0px 0 120px;
+}
+.about-style2-area.pd120-0-0{
+    padding: 120px 0 0;
+}
+
+
+
+.about-style2_content-box {
+    position: relative;
+    display: block;
+    max-width: 570px;
+}
+.about-style2_content-box .thm-shape1{
+    position: absolute;
+    top: -60px;
+    left: -70px;
+    opacity: 0.10;
+}
+
+.about-style2_content-box .sec-title{
+    padding-bottom: 32px;    
+}
+
+
+.about-style2_content-box .inner-content{
+    position: relative;
+    display: block;
+}
+.about-style2_content-box .inner-content p{
+    margin: 0;
+}
+.about-style2_content-box .inner-content ul{
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin-top: 38px;
+}
+.about-style2_content-box .inner-content ul li{
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.about-style2_content-box .inner-content ul li:last-child{
+    margin-bottom: 0;
+}
+
+.about-style2_content-box .inner-content ul li .left{
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 270px;
+}
+.about-style2_content-box .inner-content ul li .left .icon{
+    position: relative;
+    display: inline-block;
+}
+.about-style2_content-box .inner-content ul li .left .icon img{}
+.about-style2_content-box .inner-content ul li .count-outer{
+    position: relative;
+    display: block;
+    margin-left: 20px;
+}
+.about-style2_content-box .inner-content ul li .count-outer .count-text{
+    color: var(--thm-color-2);
+    font-size: 60px;
+    line-height: 1.0em;
+    font-weight: 700;
+}
+.about-style2_content-box .inner-content ul li .count-outer span{
+    color: var(--thm-color-2);
+    font-size: 60px;
+    line-height: 1.0em;
+    font-weight: 700;
+}
+.about-style2_content-box .inner-content ul li .count-outer h5{
+    color: var(--thm-black);
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 600;
+    margin: 3px 0 0;
+}
+
+
+.about-style2_content-box .inner-content ul li.style2 .count-outer .count-text{
+    color: var(--thm-primary);
+}
+.about-style2_content-box .inner-content ul li.style2 .count-outer span{
+    color: var(--thm-primary);
+}
+
+
+.about-style2_content-box .inner-content ul li .right{
+    position: relative;
+    display: block;
+    padding-left: 30px;
+}
+.about-style2_content-box .inner-content ul li .right:before{
+    position: absolute;
+    top: -10px;
+    left: 0;
+    bottom: -10px;
+    width: 1px;
+    background: #e3e9f4;
+    content: "";
+}
+
+.about-style2_content-box .inner-content ul li .right .text{
+    position: relative;
+    display: block;
+}
+.about-style2_content-box .inner-content ul li .right .text p{
+    margin: 0;
+}
+
+
+.about-style2_image-box {
+    position: relative;
+    display: block;
+    margin-left: -28px;
+}
+.about-style2_image-box img{
+    width: 100%;
+}
+
+
+
+/*** 
+=============================================
+    About Style3 Area Css   
+=============================================
+***/
+.about-style3-area{
+    position: relative;
+    display: block;
+    background: transparent;
+}
+.about-style3_content {
+    position: relative;
+    display: block;
+    background: #ffffff;
+    padding-left: 400px;
+    min-height: 530px;
+    margin-top: -60px;
+    z-index: 10;
+}
+.about-style3_content .img-holder{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 400px;
+}
+
+.about-style3_content .img-holder .video-holder-box-2{
+    position: absolute;
+    left: 0;
+    bottom: 50px;
+    right: 0;
+    width: auto;
+    height: auto;
+}
+.about-style3_content .img-holder .video-holder-box-2 .icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about-style3_content .img-holder .video-holder-box-2 .icon a span:before{
+    position: relative;
+    display: inline-block;
+    color: #ffffff;
+    font-size: 55px;
+    line-height: 55px;
+}
+.about-style3_content .img-holder .video-holder-box-2 .icon .title{
+    position: relative;
+    display: inline-block;
+    padding-left: 15px;
+}
+.about-style3_content .img-holder .video-holder-box-2 .icon .title h5{
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 600;
+}
+
+
+.about-style3_content .text-holder {
+    position: relative;
+    display: block;
+    padding-top: 60px;
+    padding-left: 60px;
+    padding-bottom: 60px;
+    padding-right: 60px;
+    box-shadow: 0px 5px 24px 6px rgb(0 0 0 / 6%);
+}
+.about-style3_content .text-holder .about-style1_content-box {
+    position: relative;
+    display: block;
+    max-width: 100%;
+    padding: 0 0 0;
+}
+.about-style3_content .text-holder .about-style1_content-box .sec-title {
+    padding-bottom: 20px;
+}
+.about-style3_content .text-holder .about-style1_content-box .inner-content h3 {
+    margin-bottom: 14px;
+}
+.about-style3_content .text-holder .about-style1_content-box .inner-content .bottom-box{
+    margin-top: 31px;    
+}
+.about-style3_content .text-holder .about-style1_content-box .inner-content .bottom-box .signature h2 {
+    color: var(--thm-black);
+}
+.about-style3_content .text-holder .about-style1_content-box .inner-content .bottom-box .name h3 {
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.about-style3-shape{
+    position: absolute;
+    top: -10px;
+    left: 30px;
+    bottom: 0;
+}
+
+
+
+
+
+/*** 
+=============================================
+    About Style4 Area Css   
+=============================================
+***/
+.about-style4-area{
+    position: relative;
+    display: block;
+    background: #ffffff;
+    padding: 147px 0 120px;
+}
+.about-style4-area .auto-container {
+    max-width: 1330px;
+}
+
+.about-style4_image_box {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin-right: 35px;
+}
+.about-style4_image_box img{
+    width: 100%;
+}
+
+.about-style4_content{
+    position: relative;
+    display: block;
+    padding-left: 5px;
+}
+.about-style4_content .sec-title{
+    padding-bottom: 38px;
+}
+
+.about-style4_content .inner-box{
+    position: relative;
+    display: block;
+}
+.about-style4_content .inner-box ul{
+    position: relative;
+    display: block;
+    padding: 17px 0 35px;
+}
+.about-style4_content .inner-box ul li{
+    position: relative;
+    display: block;
+    color: #222222;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+}
+.about-style4_content .inner-box ul li+li{
+    margin-top: 13px;
+}
+.about-style4_content .inner-box ul li span {
+    color: var(--thm-color-2);
+    font-size: 15px;
+    padding-right: 15px;
+}
+
+.about-style4_content .inner-box .bottom-box{
+    position: relative;
+    display: inline-block;
+    padding-right: 50px;
+}
+.about-style4_content .inner-box .bottom-box .shape1{
+    position: absolute;
+    top: 0;
+    left: 30px;
+}
+.about-style4_content .inner-box .bottom-box .shape2{
+    position: absolute;
+    top: 0;
+    right: 0px;
+}
+.about-style4_content .inner-box .bottom-box h2{
+    color: var(--thm-color-5);
+    font-size: 84px;
+    line-height: 60px;
+    font-weight: 400;
+    font-family: moxie-fonts;
+}
+

@@ -1,0 +1,160 @@
+
+
+/*** 
+=============================================
+    Partner Area Css
+=============================================
+***/
+.partner-area {
+    position: relative;
+    display: block;
+    background: #ffffff;
+    padding: 0px 0 120px;
+    z-index: 2;
+}
+.partner-area.pdt120-0-0{
+    padding: 120px 0 0;
+}
+
+.partner-area .top-box {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 56px;
+}
+.partner-area .top-box .shape{
+    position: absolute;
+    top: -50px;
+    left: -160px;
+}
+
+.partner-area .top-box .title{
+    position: relative;
+    display: block;
+    margin-top: -13px;
+}
+.partner-area .top-box .title h2{
+    font-size: 48px;
+    line-height: 62px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.partner-area .top-box .title h4{
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: 400;
+}
+
+
+.partner-box {
+    position: relative;
+    display: block;
+}
+.single-partner-logo-box {
+    position: relative;
+    display: block;
+    text-align: center;
+    line-height: 0;
+    z-index: 1;
+}
+
+.single-partner-logo-box a {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+}
+.single-partner-logo-box a img {
+    transition: all 0.2s ease-in-out 0.1s;
+}
+.single-partner-logo-box:hover a img{
+    filter: grayscale(1);
+    transition: all 0.8s ease-in-out 0.1s;
+}
+
+
+
+/*** 
+=============================================
+    Partner Area Style2 Css
+=============================================
+***/
+.partner-area--style2 .single-partner-logo-box a {
+    border: 1px solid #e3e9f4;
+}
+
+
+
+/*** 
+=============================================
+    Partner Area Style3 Css
+=============================================
+***/
+.partner-area--style3 {
+    background: #eef1f7;
+    padding: 50px 0;
+    z-index: 1;
+}
+.partner-area--style3_bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-attachment: scroll;
+    background-repeat: repeat-x;
+    background-position: bottom center;
+    background-size: cover;
+    z-index: -1;
+    -webkit-animation: bgSlideReverse 20s linear infinite;
+    animation: bgSlideReverse 20s linear infinite;
+}
+.single-partner-logo-box a:hover img {
+    transform: scale(1.1);
+    transition: all 0.2s ease-in-out 0.1s;
+}
+
+
+
+/*** 
+=============================================
+    Partner style4 Area Css
+=============================================
+***/
+.partner-style4-area {
+    position: relative;
+    display: block;
+    background: #2f3a51;
+    padding: 70px 0;
+}
+.partner-style4-area .single-partner-logo-box a img {
+    opacity: 0.35;
+    width: auto;
+    -webkit-transition: all 0.4s linear;
+    -o-transition: all 0.4s linear;
+    transition: all 0.4s linear;    
+}
+.partner-style4-area .single-partner-logo-box:hover a img{
+    opacity: 1.0;
+    transform: none;    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

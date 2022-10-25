@@ -1,0 +1,128 @@
+
+
+
+
+/*** 
+=============================================
+    Breadcrumb area style
+=============================================
+***/
+.breadcrumb-area {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    background-attachment: scroll;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 109px 0 115px;
+    z-index: 10;
+}
+.breadcrumb-area:before{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #0e131e;
+    opacity: 0.75;
+    content: "";
+    z-index: -1;
+}
+
+
+.breadcrumb-area .inner-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.breadcrumb-area .inner-content .shape1 {
+    position: absolute;
+    top: 100px;
+    left: 15%;
+    z-index: 1;
+}
+.breadcrumb-area .inner-content .shape2 {
+    position: absolute;
+    top: -20px;
+    right: 0;
+    z-index: 1;
+}
+
+.breadcrumb-area .title {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    z-index: 1;
+}
+.breadcrumb-area .title h2{
+    color: #ffffff;
+    font-size: 48px;
+    line-height: 1.2em;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.breadcrumb-area .inner-content .border-box{
+    position: relative;
+    display: block;
+    width: 80px;
+    height: 2px;
+    background: #ffffff;
+    margin: 19px auto 24px;
+}
+.breadcrumb-area .inner-content .border-box:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 50%;
+    background: var(--thm-primary);
+}
+
+.breadcrumb-menu{
+    position: relative;
+    display: block;
+    line-height: 0;
+    z-index: 1;
+}
+.breadcrumb-menu ul {
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+.breadcrumb-menu ul li {
+    position: relative;
+    display: inline-block;
+    float: none;
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding-right: 5px;
+    margin-right: 5px;
+}
+.breadcrumb-menu ul li:last-child{
+    padding-right: 0;
+    margin-right: 0;
+}
+.breadcrumb-menu ul li span:before{
+    position: relative;
+    display: inline-block;
+    top: 1px;
+}
+.breadcrumb-menu ul li a {
+    color: #ffffff;
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+}
+.breadcrumb-menu ul li:hover a,
+.breadcrumb-menu ul li.active{
+    color: var(--thm-primary);
+}
+
