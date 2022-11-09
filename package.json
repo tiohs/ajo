@@ -1,13 +1,48 @@
 {
-  "name": "ajo",
-  "version": "1.0.0",
-  "main": "index.js",
-  "repository": "https://github.com/tiohs/ajo.git",
-  "author": "tiohs <hamiltonsilva551@gmail.com>",
-  "license": "MIT",
-  "devDependencies": {
-    "eslint": "^7.32.0 || ^8.2.0",
+  "scripts": {
+    "dev:debug": "nodemon src/server.js",
+    "start": "node dist/server.js",
+    "dev": "nodemon --inspect src/server.js",
+    "build": "babel src --extensions \".js,.ts\" --out-dir dist --copy-files"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "compression": "^1.7.4",
+    "connect-flash": "^0.1.1",
+    "connect-session-sequelize": "^7.1.2",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "date-fns": "^2.27.0",
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
     "eslint-config-airbnb-base": "^15.0.0",
-    "eslint-plugin-import": "^2.25.2"
+    "eslint-plugin-import": "^2.25.2",
+    "express": "^4.17.1",
+    "express-handlebars": "3.1.0",
+    "express-session": "^1.17.2",
+    "express-session-sequelize": "^2.3.0",
+    "multer": "^1.4.3",
+    "mysql2": "^2.3.3",
+    "nodemailer": "^6.7.2",
+    "nodemailer-express-handlebars": "3.1.0",
+    "nodemon": "^2.0.15",
+    "pg": "^8.7.1",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "5.19.6",
+    "sequelize-cli": "^6.3.0",
+    "yup": "^0.32.11"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.16.8",
+    "@babel/core": "^7.16.7",
+    "@babel/node": "^7.16.8",
+    "@babel/preset-env": "^7.16.8",
+    "babel-plugin-module-resolver": "^4.1.0",
+    "eslint": "^8.27.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.7.1",
+    "sucrase": "^3.20.3"
   }
 }
