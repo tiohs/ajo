@@ -31,6 +31,6 @@ app.use((request, response) => {
   response.send('Error/404.ejs');
 });
 
-app.listen(3333, () => {
+app.listen(process.env.PORT || 3333, () => {
   console.log('Port on http://localhost:3333/');
 });
