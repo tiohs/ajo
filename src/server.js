@@ -1,6 +1,7 @@
 import express, { urlencoded } from 'express';
 import { join } from 'path';
 import cookieParser from 'cookie-parser';
+import routes from './app.routes';
 
 const app = express();
 
@@ -12,6 +13,7 @@ app.use(express.static(join(__dirname, '..', 'views', 'public')));
 app.use(express.static(join(__dirname, '..', 'tmp')));
 app.use(urlencoded({ extended: false }));
 app.use(cookieParser());
+app.use(routes);
 
 // app.use((err, request,  response, _) => {
 //   if (err instanceof AppError) {
